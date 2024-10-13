@@ -1,0 +1,12 @@
+
+In this we select an edge and then we can check multiple things:
+
+-> Detect cycle in the graph
+-> Find smallest cycle in the graph
+-> Find the largest cycle in the graph
+-> Redundent Connection in the graph
+
+Here we select an edge and then find using dfs or bfs that from start vertex of this edge can we 
+reach to the end vertex of this edge
+-> Yes then there is cycle 
+-> No then there is no cycle
