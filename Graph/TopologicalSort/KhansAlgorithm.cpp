@@ -38,6 +38,10 @@ int solve(int n,vector<vector<int>> edges, vector<vector<int>> adjList){
 		}
 	}
 
+	if(res.size()!=edges.size())cout<<”Cycle present”;
+	return res;
+
+
 }
  
 int main() { 
